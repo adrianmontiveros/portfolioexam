@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AderPortfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Montserrat:400,700|Poppins:700,900&display=swap&subset=latin-ext" rel="stylesheet">
 
 </head>
 
 <body>
 
     <header>
-        <div id="logo">
-            <img src="http://lorempixel.com/g/50/50/abstract" alt="">
+        <div class="headercontainer">
+            <div id="logo">
+                <img src="http://lorempixel.com/g/50/50/abstract" alt="">
+            </div>
+            <div id="title">
+                <h1>welcome</h1>
+                <h2>to my portfolio</h2>
+            </div>
         </div>
-        <section id="title">
-            <h1>welcome</h1>
-            <h2>to my portfolio</h2>
-        </section>
         <nav id="pagenav">
             <label for="hamburger">&#9776;</label>
             <input type="checkbox" id="hamburger" />
@@ -30,12 +32,11 @@
                 <li><a href="basiccontent.html">Content</a></li>
             </ul>
         </nav>
-
     </header>
 
     <main>
 
-        <article class="welcometext">
+        <section class="txtcontainer">
 
             <p>
                 For the Final Exam of the First Semester in Multimedia Design at KEA, the combination of everything a student has learnt throughout the course has to be demonstrated through a website.
@@ -45,9 +46,9 @@
 
             </p>
 
-        </article>
+        </section>
 
-        <section>
+        <section class="btncontainer">
             <div class="topic"><span>basic</span>WEB</div>
             <div class="topic"><span>basic</span>UX</div>
             <div class="topic"><span>basic</span>ANIMATION</div>
@@ -62,6 +63,4 @@
     </footer>
 
     <script src="js/script.js"></script>
-</body>
-
-</html>
+</body></html>
